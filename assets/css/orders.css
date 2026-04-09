@@ -26,6 +26,7 @@ body::before{
     padding:20px;
     font-size:18px;
     position:relative;
+    margin-top: 20px;
 }
 .navbar h2{
     position:absolute;
