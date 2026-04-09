@@ -44,7 +44,7 @@ if(isset($_POST['login'])){
 <title>Login</title>
 <link rel="stylesheet" href="assets/css/auth.css">
 </head>
-<body
+<body>
 <?php include("includes/header.php"); ?>
 <div class="auth-container"> 
     <div class="auth-form">
