@@ -1,7 +1,7 @@
 body{
     font-family:'Poppins', sans-serif;
     margin:0;
-    padding:20px;
+    padding:0;
     background:url("/bookstore_project/assets/images/firstpage.jpeg");
     background-size:cover;
     background-position:center;
@@ -17,6 +17,47 @@ body::before{
     height:100%;
     background:rgba(0,0,0,0.6);
     z-index:-1;
+}
+.navbar{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    font-size:18px;
+    position:relative;
+    margin-top: 20px;
+}
+.navbar h2{
+    position:absolute;
+    left:40px;
+    margin:0;
+    font-family:'Playfair Display', serif;
+    color:rgb(255, 22, 127);
+    font-size: 35px;
+}
+.navbar ul{
+    list-style:none;
+    display:flex;
+    gap:25px;
+    margin:0;
+    padding:0;
+}
+.navbar ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:16px;
+    padding:10px 18px;
+    border-radius:50px;  
+    transition:0.3s;
+    border:2px solid transparent;
+}
+.navbar ul li a:hover{
+    border:2px solid rgb(255, 22, 127);
+    color:rgb(255, 22, 127);
+}
+.navbar ul li a.active{
+    background:rgb(255, 22, 127);
+    color:black;
 }
 h1{
     color: rgb(255, 22, 127);
